@@ -40,12 +40,12 @@ expect(elememt).toBeInTheDocument();
 
 To fix the test and also verify our code and test are connected, we can simply create a one-line component like this 
 
-const App = () => <div>Hello Ventlio</div>
+const App = () => { <div>Hello Ventlio</div> }
 export default App;
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkCP4yDcpNJOzczoOP9AhYUHVMOElAHTYNRg&usqp=CAU"/>
 
 But if the test aren't passing don't get angry, don't panic, chill 😄, you can randomly change something that would fail to check eg. 👇
 
-const App = () => <div>Hello Next</div>
+const App = () => { <div>Hello Next</div> }
 export default App;
