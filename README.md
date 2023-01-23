@@ -12,7 +12,8 @@ According to **Martin Fowler** he wrote that "Any fool can write code that a com
 
 
 ## Examples of Clean code
-+ it will be easy to understand, change, test
++ it must be easy to understand, change, test
 + Must follow general principle - eg. 
 + No matter what approach you're following, be sure to arrange things in the same way
 + Choose a word with meaning in naming your functions, variables etc
++ Make necessary comments
