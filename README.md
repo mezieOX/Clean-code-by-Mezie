@@ -30,7 +30,7 @@ The most frustrating thing about **Unclean code** is that when you want to apply
 **TDD** means Test-Driven Development
 whats is TDD? Simply it means write a test first and see it fail, make the test pass with minimal effort(changes), and **refactor** if necessary/is a programming practice that instructs developers to write new code only if an automated test has failed.
 whats **Refactor**? is the Source code of an application or piece of software, so as to improve operation without altering functionality.
-So the idea here is very simple, once you add your first test , With react-testing -library eg.
+So the idea here is very simple, once you add your first test , With react-testing -library eg. 👇
 
 test("render greeting message", () => {
 render(<App />);
@@ -40,8 +40,12 @@ expect(elememt).toBeInTheDocument();
 
 To fix the test and also verify our code and test are connected, we can simply create a one-line component like this 
 
-const App = () => <div>Hello World!!!</div>
-
+const App = () => <div>Hello Ventlio</div>
 export default App;
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkCP4yDcpNJOzczoOP9AhYUHVMOElAHTYNRg&usqp=CAU"/>
+
+But if the test aren't passing don't get angry, don't panic, chill 😄, you can randomly change something that would fail to check eg. 👇
+
+const App = () => <div>Hello Next</div>
+export default App;
