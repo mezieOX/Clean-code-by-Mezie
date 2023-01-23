@@ -38,7 +38,7 @@ const element = screen.getByText("Hello Ventlio");
 expect(elememt).toBeInTheDocument();
 });
 
-To fix the test and also verify our code and test are connected, we can simply create a one-line component like this 
+To fix the test and also verify our code and test are connected, we can simply create a one-line component like this 👇
 
 const App = () => { <>Hello Ventlio</> }
 export default App;
