@@ -19,20 +19,24 @@ According to **Martin Fowler** he wrote that "Any fool can write code that a com
 ## Note
 The most frustrating thing about **Unclean code** is that when you want to apply a simple change to the existing code, even if you know that it's only one-line change. it's nearly impossible to make the change without braking something else, or sometimes not disgusting yourself. Another possibility is that you need to modify another place, and so on. it's a kind of **rabbit hole** to make that simple one-liner. The dead loop is that, because it's hard to change people tend to not change it but just add patches on it, which in turn make it even harder to change again 😞.
 
-## More extra Lessons i learnt from those Book
-+ Learnt that obedient is very important, hard-working,
+## Lessons
++ Learnt that obedient is very important, hard-working etc
 + For me to become a bad ass developer, i must be familiar with Clean code
 + The popular way to split my project is to divide it by features first
-+ I also learnt that the Kebab case is a popular one (naming convention) in the JS community overall, and you would name a component like generic-card.tsx and i can use ESlint and FolderLint to ensure that my team has the same naming standard for files and folders, and so on...
++ I also learnt that the Kebab case is a popular one (naming convention) in the JS community overall, and i would name a component like generic-card.tsx and i can use ESlint and FolderLint to ensure that my team has the same naming standard for files and folders
 + I also learnt that once i have established a conversation as a team that i must stick with it and try to make everthing organised the same way
-+ I learnt also that naming my component like eg.  
-+ components/Button
-+ index.test.tsx
-+ index.tsx
-+ style.css
-+ That Some people hate it, as the editor will return a million index when i try to search for component. Another way i'll name my file is to explicitly name the component while keeping index.tsx for the default export.
-+ + components/Button
-+ Button.test.tsx
-+ Button.tsx
-+ Button.css
-+ No matter what approastylech am following, i'll be sure to arrange things n the same way. For example, if i put a style file next to the component, i'll must keep the convention acoss al the components in your codebase. similarry, if i use __tests__folder, i must all other folders follow the same pattern.
++ I learnt also that naming my component like eg. 👇
+<code> 
+components/Button
+index.test.tsx
+index.tsx
+style.css
+<code/>
+That Some people hate it, as the editor will return a million index when trying to search for component, Another way i'll be using in naming my file is to explicitly name the component while keeping index.tsx for the default export eg. 👇
+<code> 
+components/Button
+Button.test.tsx
+Button.tsx
+Button.css
+<code/>
++ No matter what approach i'll be following, i'll be sure to arrange things in the same way. For example, if i put a style file next to the component, i'll must keep the convention across all the components in my codebase. similarry, if i use __tests__folder, i must ensure  all other folders follow the same pattern and so on...
