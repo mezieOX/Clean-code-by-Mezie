@@ -45,7 +45,7 @@ export default App;
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkCP4yDcpNJOzczoOP9AhYUHVMOElAHTYNRg&usqp=CAU"/>
 
-But if the test aren't passing don't get angry, don't panic, chill 😄, you can randomly change something that would fail to check
+But if the test aren't passing don't get angry, don't panic, chill 😄, you can randomly change something that would fail just to check
 the implementation to see the error and change it back eg. 👇
 
 const App = () => { <>Hello Next</> }
