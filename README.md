@@ -27,10 +27,10 @@ The most frustrating thing about **Unclean code** is that when you want to apply
 + I also learnt that once i have established a conversation as a team that i must stick with it and try to make everthing organised the same way
 + I learnt also that naming my component like eg. 👇
 
-  components/Button
-  index.test.tsx
-  index.tsx
-  style.css
+  components/Button <br/>
+  index.test.tsx <br />
+  index.tsx <br />
+  style.css <br />
   
 That Some people hate it, as the editor will return a million index when trying to search for component, Another way i'll be using in naming my file is to explicitly name the component while keeping index.tsx for the default export eg. 👇
 
