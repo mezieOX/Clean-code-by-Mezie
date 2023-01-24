@@ -32,11 +32,11 @@ The most frustrating thing about **Unclean code** is that when you want to apply
   index.tsx <br />
   style.css <br />
   
-That Some people hate it, as the editor will return a million index when trying to search for component, Another way i'll be using in naming my file is to explicitly name the component while keeping index.tsx for the default export eg. 👇
+  That Some people hate it, as the editor will return a million index when trying to search for component, Another way i'll be using in naming my file is to explicitly name the component while keeping index.tsx for the default export eg. 👇
 
-  components/Button
-  Button.test.tsx
-  Button.tsx
-  Button.css
+  components/Button <br />
+  Button.test.tsx <br />
+  Button.tsx <br />
+  Button.css <br />
 
 + No matter what approach i'll be following, i'll be sure to arrange things in the same way. For example, if i put a style file next to the component, i'll must keep the convention across all the components in my codebase. similarry, if i use __tests__folder, i must ensure  all other folders follow the same pattern and so on...
