@@ -5,7 +5,7 @@
 ## What's clean code all about?
 ## Definition
 In my own world i tell you that "Clean code refers to code that is easy to understand, modify, extend and maintain".
-According to **Martin Fowler** he wrote that "Any fool can write code that a computer can understand. Good programmers write code that human understand". In a situation where Programmed Code is - Hard to test, Hard to change, Has long file symptoms etc, All these things mentioned is a properties of **unclean code**, as a good programmer you must try to avoid them. The best part that calls my attention/interest me so much in this **Martin Fowler** book is when he say's **"Write a Code that human understand"**. Code is clean if it can be understood easily — by everyone on the team
+According to **Martin Fowler** he wrote that "Any fool can write code that a computer can understand. Good programmers write code that human understand". In a situation where Programmed Code is - Hard to test, Hard to change, Has long file symptoms etc, All these things mentioned is a properties of **unclean code**, as a good programmer i must try to avoid them. The best part that calls my attention/interest me so much in this **Martin Fowler** book is when he say's **"Write a Code that human understand"**. Code is clean if it can be understood easily — by everyone on the team
 
 ## Some of the Characteristics/Features of Clean code
 + It must be simple
@@ -26,17 +26,17 @@ The most frustrating thing about **Unclean code** is that when you want to apply
 + I also learnt that the Kebab case is a popular one (naming convention) in the JS community overall, and i would name a component like generic-card.tsx and i can use ESlint and FolderLint to ensure that my team has the same naming standard for files and folders
 + I also learnt that once i have established a conversation as a team that i must stick with it and try to make everthing organised the same way
 + I learnt also that naming my component like eg. 👇
-<code> 
-components/Button
-index.test.tsx
-index.tsx
-style.css
-<code/>
+
+  components/Button
+  index.test.tsx
+  index.tsx
+  style.css
+  
 That Some people hate it, as the editor will return a million index when trying to search for component, Another way i'll be using in naming my file is to explicitly name the component while keeping index.tsx for the default export eg. 👇
-<code> 
-components/Button
-Button.test.tsx
-Button.tsx
-Button.css
-<code/>
+
+  components/Button
+  Button.test.tsx
+  Button.tsx
+  Button.css
+
 + No matter what approach i'll be following, i'll be sure to arrange things in the same way. For example, if i put a style file next to the component, i'll must keep the convention across all the components in my codebase. similarry, if i use __tests__folder, i must ensure  all other folders follow the same pattern and so on...
