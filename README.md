@@ -21,7 +21,7 @@ The most frustrating thing about **Unclean code** is that when you want to apply
 
 ## Lessons
 + Learnt that obedient is very important, hard-working
-+ For me to become a bad ass developer, i must be familiar with Clean code
++ For me to become a good software engineer, i must be familiar with Clean code
 + The popular way to split my project is to divide it by features first
 + I also learnt that the Kebab case is a popular one (naming convention) in the JS community overall, and i would name a component like generic-card.tsx and i can use ESlint and FolderLint to ensure that my team has the same naming standard for files and folders
 + I also learnt that once i have established a conversation as a team that i must stick with it and try to make everthing organised the same way
