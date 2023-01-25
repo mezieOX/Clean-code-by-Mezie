@@ -5,7 +5,7 @@
 ## What's clean code all about?
 ## Definition
 In my own world i tell you that "Clean code refers to code that is easy to understand, modify, extend and maintain".
-According to **Martin Fowler** he wrote that "Any fool can write code that a computer can understand. Good programmers write code that human understand". In a situation where Programmed Code is - Hard to test, Hard to change, Has long file symptoms etc, All these things mentioned is a properties of **unclean code**, as a good programmer i must try to avoid them. The best part that calls my attention/interest me so much in this **Martin Fowler** book is when he say's **"Write a Code that human understand"**. Code is clean if it can be understood easily — by everyone on the team
+According to **Martin Fowler** he wrote that "Any fool can write code that a computer can understand. Good programmers write code that human understand". In a situation where Programmed Code is - Hard to test, Hard to change, Has long file symptoms etc, All these things mentioned is a properties of **unclean code**, as a good programmer you must try to avoid them. The best part that calls my attention/interest me so much in this **Martin Fowler** book is when he say's **"Write a Code that human understand"**. Code is clean if it can be understood easily — by everyone on the team
 
 ## Some of the Characteristics/Features of Clean code
 + It must be simple
@@ -20,7 +20,7 @@ According to **Martin Fowler** he wrote that "Any fool can write code that a com
 The most frustrating thing about **Unclean code** is that when you want to apply a simple change to the existing code, even if you know that it's only one-line change. it's nearly impossible to make the change without braking something else, or sometimes not disgusting yourself. Another possibility is that you need to modify another place, and so on. it's a kind of **rabbit hole** to make that simple one-liner. The dead loop is that, because it's hard to change people tend to not change it but just add patches on it, which in turn make it even harder to change again 😞.
 
 ## Lessons
-+ Learnt that obedient is very important, hard-working etc
++ Learnt that obedient is very important, hard-working
 + For me to become a bad ass developer, i must be familiar with Clean code
 + The popular way to split my project is to divide it by features first
 + I also learnt that the Kebab case is a popular one (naming convention) in the JS community overall, and i would name a component like generic-card.tsx and i can use ESlint and FolderLint to ensure that my team has the same naming standard for files and folders
@@ -32,11 +32,11 @@ The most frustrating thing about **Unclean code** is that when you want to apply
   index.tsx <br />
   style.css <br />
   
-  That Some people hate it, as the editor will return a million index when trying to search for component, Another way i'll be using in naming my file is to explicitly name the component while keeping index.tsx for the default export eg. 👇
+  That Some people hate it, as the editor will return a million index when trying to search for component, Another way i'll be using in naming my file is   to explicitly name the component while keeping index.tsx for the default export eg. 👇
 
   components/Button <br />
   Button.test.tsx <br />
   Button.tsx <br />
   Button.css <br />
 
-+ No matter what approach i'll be following, i'll be sure to arrange things in the same way. For example, if i put a style file next to the component, i'll must keep the convention across all the components in my codebase. similarry, if i use __tests__folder, i must ensure  all other folders follow the same pattern and so on...
++ No matter what approach i'll be following, i'll be sure to arrange things in the same way. For example, if i put a style file next to the component, i'll must keep the convention across all the components in my codebase. similarly, if i use __tests__folder, i must ensure  all other folders follow the same pattern and so on...
