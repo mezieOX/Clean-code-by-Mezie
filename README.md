@@ -37,6 +37,6 @@ The most frustrating thing about **Unclean code** is that when you want to apply
   components/Button <br />
   Button.test.tsx <br />
   Button.tsx <br />
-  Button.css <br />
+  style.css <br />
 
 + No matter what approach i'll be following, i'll be sure to arrange things in the same way. For example, if i put a style file next to the component, i'll must keep the convention across all the components in my codebase. similarly, if i use __tests__folder, i must ensure  all other folders follow the same pattern and so on...
